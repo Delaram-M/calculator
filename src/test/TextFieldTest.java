@@ -1,4 +1,3 @@
-import GUI.CalculatorWindow;
 import GUI.TextField;
 import org.junit.Before;
 import org.junit.After;
@@ -11,8 +10,7 @@ public class TextFieldTest {
 
     @Before
     public void setUp() {
-        CalculatorWindow calculatorWindow = new CalculatorWindow();
-        textField = calculatorWindow.getTextField();
+        textField = new TextField();
     }
 
     @After
